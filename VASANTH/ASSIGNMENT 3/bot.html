@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+window.watsonAssistantChatOptions = {
+    integrationID: "26e92390-b6f8-45f8-abe0-3787ca144945", 
+    region: "au-syd", 
+    serviceInstanceID: "63734ed1-6206-49ee-a23d-ddfa707e4de6", 
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+    </script>
+</head>
+<body>
+    <h2>Hiii everyone welcome to this page</h2><br>
+   
+</body>
+</html>
